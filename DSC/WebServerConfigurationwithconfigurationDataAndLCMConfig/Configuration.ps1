@@ -7,7 +7,8 @@
         #Konfigurieren des LCM (Local Configuration Manager)
         LocalConfigurationManager
         {
-            ConfigurationMode = "ApplyAndAutoCorrect"
+            #ConfigurationMode hat folgende Werte: ApplyandAutorCorrect, ApplyandMonitor, ApplyOnly
+            ConfigurationMode = "ApplyAndAutoCorrect" 
             ConfigurationModeFrequencyMins = 15 #standardwert Wertbereich in Minuten 15 bis 44640
         }
 
