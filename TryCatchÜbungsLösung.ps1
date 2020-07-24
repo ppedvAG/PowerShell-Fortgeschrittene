@@ -9,6 +9,5 @@ try
 catch
 {
     Write-Verbose -Message $Error[0]
-    Write-Host "Es ist ein Fehler aufgetreten" -ForegroundColor Red
-    
+    Write-Host "Es ist ein Fehler aufgetreten" -ForegroundColor Red    
 }
